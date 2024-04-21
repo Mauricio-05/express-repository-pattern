@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "incremental": true,                          
+    "target": "ESNext", 
+    "module": "NodeNext",                                 
+    "lib": ["ESNext"],                                                                     
+    "rootDir": "./", 
+    "outDir": "./build",                                    
+    "paths": {
+        "#src/*": ["./src/*.js"],
+        "#controllers/*": ["./src/controllers/*.js"],
+        "#middlewares/*": ["./src/middlewares/*.js"],
+        "#models/*": ["./src/models/*.js"],
+        "#repository/*": ["./src/repository/*.js"],
+        "#routes/*": ["./src/routes/*.js"],
+        "#types/*": ["./src/types/*.js"],
+        "#validators/*": ["./src/validators/*.js"]
+    }, 
+    "types": ["@types/node"],
+    "experimentalDecorators": true,                 
+    "emitDecoratorMetadata": true,                                     
+    "declaration": false,                              
+    "sourceMap": true,                                                      
+    "removeComments": true,                           
+    "isolatedModules": true,                          
+    "allowSyntheticDefaultImports": true,             
+    "esModuleInterop": true,                           
+    "forceConsistentCasingInFileNames": true,           
+    "strict": true,                                      
+    "noImplicitAny": true,                            
+    "strictNullChecks": true,                         
+    "strictFunctionTypes": true,                      
+    "strictBindCallApply": true,                      
+    "strictPropertyInitialization": true,             
+    "noImplicitThis": true,                           
+    "noUnusedLocals": true,                           
+    "noUnusedParameters": true,                      
+    "skipLibCheck": true,                               
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
