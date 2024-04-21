@@ -18,7 +18,7 @@ class UserRepository implements IUserRepository {
   }
 
   async findAll(): Promise<IUser[]> {
-    await new Promise((r) => setTimeout(r, 800));
+    await new Promise((r) => setTimeout(r, 500));
     return this.data;
   }
 }

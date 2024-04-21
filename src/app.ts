@@ -26,6 +26,7 @@ class App {
   }
 
   private routes(): void {
+    this.app.get("/", (_req, res) => res.send("Hola mundo"));
     this.app.use("/api", new Routes(this.app).router);
   }
 
