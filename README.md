@@ -25,7 +25,7 @@ Proyecto de Node.js con Express.js y TypeScript usando el patron de diseño repo
 ## Ejecución
 
 1. Inicia el servidor en modo desarrollo con el comando:
-   - npm run dev, luego en la terminal de saldra un mensaje: "Servidor encendido en el puerto: [El puerto que configuraste en el .env o archivo config.ts]".
+   - npm run dev, luego en la terminal te saldra un mensaje: "Servidor encendido en el puerto: [El puerto que configuraste en el .env o archivo config.ts]".
    - Abre la url http://localhost:5006/ en tu navegador, si el proyecto se esta ejecutando bien deberia devolverte un "Hola mundo".
 
 ## Contribución
